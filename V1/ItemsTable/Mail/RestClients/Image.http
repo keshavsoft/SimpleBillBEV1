@@ -1,0 +1,9 @@
+POST http://localhost:3000/V1/ItemsTable/Mail/Image
+Content-Type: application/json
+
+{
+  "ItemName": "",
+  "ItemCode": "",
+  "Rate": "",
+  "GstPercentage": ""
+}

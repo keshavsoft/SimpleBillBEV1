@@ -1,0 +1,97 @@
+{
+    "tableName": "ItemsTable",
+    "columns": [
+        {
+            "field": "ItemName",
+            "title": "ItemName",
+            "unique": true,
+            "type": "text",
+            "isInput": true,
+            "isAutoFocus": true,
+            "WidthOptions": {
+                "inPx": 200
+            }
+        },
+        {
+            "field": "ItemCode",
+            "title": "ItemCode",
+            "unique": false,
+            "type": "text",
+            "isInput": true,
+            "WidthOptions": {
+                "inPx": 200
+            }
+        },
+        {
+            "field": "Rate",
+            "title": "Rate",
+            "unique": false,
+            "type": "number",
+            "isNumber": true,
+            "ShowTotal":true,
+            "WidthOptions": {
+                "inPx": 200
+            }
+        },
+        {
+            "field": "GstPercentage",
+            "title": "Gst %",
+            "unique": false,
+            "type": "number",
+            "isNumber": true,
+            "ShowTotal":true,
+            "WidthOptions": {
+                "inPx": 200
+            }
+        }
+    ],
+    "data": [],
+    "Vertical": [
+        {
+            "field": "ItemName",
+            "title": "ItemName",
+            "unique": true,
+            "type": "text",
+            "isInput": true,
+            "isAutoFocus": true,
+            "WidthOptions": {
+                "inPx": 200
+            }
+        },
+        {
+            "field": "ItemCode",
+            "title": "ItemCode",
+            "unique": false,
+            "type": "text",
+            "isInput": true,
+            "WidthOptions": {
+                "inPx": 200
+            }
+        },
+        {
+            "field": "Rate",
+            "title": "Rate",
+            "unique": false,
+            "type": "number",
+            "isNumber": true,
+            "WidthOptions": {
+                "inPx": 200
+            }
+        },
+        {
+            "field": "GstPercentage",
+            "title": "Gst %",
+            "unique": false,
+            "type": "number",
+            "isNumber": true,
+            "WidthOptions": {
+                "inPx": 200
+            }
+        }
+    ],
+    "DataTableOptions": {
+        "Header": {
+            "autoFocus": "ItemName"
+        }
+    }
+}
