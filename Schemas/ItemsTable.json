@@ -13,9 +13,20 @@
             }
         },
         {
+            "field": "ItemNameAlias",
+            "title": "ItemNameAlias",
+            "unique": true,
+            "type": "text",
+            "isInput": true,
+            "isAutoFocus": true,
+            "WidthOptions": {
+                "inPx": 200
+            }
+        },
+        {
             "field": "ItemCode",
             "title": "ItemCode",
-            "unique": false,
+            "unique": true,
             "type": "text",
             "isInput": true,
             "WidthOptions": {
@@ -27,11 +38,7 @@
             "title": "Rate",
             "unique": false,
             "type": "number",
-            "isNumber": true,
-            "ShowTotal":true,
-            "WidthOptions": {
-                "inPx": 200
-            }
+            "isNumber": true
         },
         {
             "field": "GstPercentage",
@@ -39,10 +46,14 @@
             "unique": false,
             "type": "number",
             "isNumber": true,
-            "ShowTotal":true,
-            "WidthOptions": {
-                "inPx": 200
-            }
+            "defaultvalue": 18
+        },
+        {
+            "field": "hsn",
+            "title": "hsn",
+            "unique": false,
+            "type": "number",
+            "isNumber": true
         }
     ],
     "data": [],
