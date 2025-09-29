@@ -9,7 +9,8 @@
             "isAutoFocus": true,
             "WidthOptions": {
                 "inPx": 200
-            }
+            },
+            "defaultvalue": "Keshav"
         },
         {
             "field": "BuyerAddress",
@@ -34,9 +35,8 @@
         {
             "field": "InvoiceNo",
             "title": "InvoiceNo",
-            "type": "text",
+            "type": "number",
             "isInput": true,
-            "isAutoFocus": true,
             "WidthOptions": {
                 "inPx": 200
             }
@@ -44,19 +44,16 @@
         {
             "field": "InvoiceDate",
             "title": "InvoiceDate",
-            "type": "text",
-            "isInput": true,
-            "isAutoFocus": true,
+            "isDate": true,
             "WidthOptions": {
                 "inPx": 200
-            }
+            },
+            "defaultvalue": "today"
         },
         {
             "field": "InvoiceStateCode",
             "title": "InvoiceStateCode",
             "type": "text",
-            "isInput": true,
-            "isAutoFocus": true,
             "WidthOptions": {
                 "inPx": 200
             }
