@@ -104,5 +104,16 @@
         "Header": {
             "autoFocus": "ItemName"
         }
+    },
+    "DefaultObjectToInsert": {
+        "Simple": {
+            "ItemName": "om namo venkateswara",
+            "ItemCode": "1",
+            "ItemNameAlias": "",
+            "Rate": 616,
+            "GstPercentage": 18,
+            "hsn": 8714,
+            "pk": 65
+        }
     }
 }
