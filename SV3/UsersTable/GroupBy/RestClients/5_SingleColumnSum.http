@@ -1,0 +1,6 @@
+POST http://localhost:9008/SV3/UsersTable/GroupBy/SingleColumnSum/{GroupByColumnName}
+Content-Type: application/json
+
+[
+	"SumColumnName"
+]

@@ -1,0 +1,1 @@
+GET http://localhost:9008/SV3/UsersTable/AggregateFunctions/Count
