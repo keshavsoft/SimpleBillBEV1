@@ -1,0 +1,2 @@
+POST http://localhost:9008/SV4/ItemsTable/AddWithDefault/AsIs
+Content-Type: application/json

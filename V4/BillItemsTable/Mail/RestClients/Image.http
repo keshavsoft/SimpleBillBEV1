@@ -1,0 +1,9 @@
+POST http://localhost:9008/V4/BillItemsTable/Mail/Image
+Content-Type: application/json
+
+{
+  "ItemName": "",
+  "Rate": "",
+  "Qty": "",
+  "Amount": ""
+}

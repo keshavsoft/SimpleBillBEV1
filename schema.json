@@ -2,6 +2,7 @@
     "Tables": [
         "ItemsTable",
         "TokenTable",
-        "UsersTable"
+        "UsersTable",
+        "BillItemsTable"
     ]
 }
