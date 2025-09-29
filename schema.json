@@ -3,6 +3,7 @@
         "ItemsTable",
         "TokenTable",
         "UsersTable",
-        "BillItemsTable"
+        "BillItemsTable",
+        "BillsTable"
     ]
 }

@@ -1,0 +1,80 @@
+{
+    "tableName": "BillsTable",
+    "columns": [
+        {
+            "field": "BuyerName",
+            "title": "BuyerName",
+            "type": "text",
+            "isInput": true,
+            "isAutoFocus": true,
+            "WidthOptions": {
+                "inPx": 200
+            }
+        },
+        {
+            "field": "BuyerAddress",
+            "title": "BuyerAddress",
+            "type": "text",
+            "isInput": true,
+            "isAutoFocus": true,
+            "WidthOptions": {
+                "inPx": 200
+            }
+        },
+        {
+            "field": "BuyerGST",
+            "title": "BuyerGST",
+            "type": "text",
+            "isInput": true,
+            "isAutoFocus": true,
+            "WidthOptions": {
+                "inPx": 200
+            }
+        },
+        {
+            "field": "InvoiceNo",
+            "title": "InvoiceNo",
+            "type": "text",
+            "isInput": true,
+            "isAutoFocus": true,
+            "WidthOptions": {
+                "inPx": 200
+            }
+        },
+        {
+            "field": "InvoiceDate",
+            "title": "InvoiceDate",
+            "type": "text",
+            "isInput": true,
+            "isAutoFocus": true,
+            "WidthOptions": {
+                "inPx": 200
+            }
+        },
+        {
+            "field": "InvoiceStateCode",
+            "title": "InvoiceStateCode",
+            "type": "text",
+            "isInput": true,
+            "isAutoFocus": true,
+            "WidthOptions": {
+                "inPx": 200
+            }
+        }
+    ],
+    "data": [],
+    "Vertical": [],
+    "DataTableOptions": {
+        "Header": {
+            "autoFocus": "ItemName"
+        }
+    },
+    "DefaultObjectToInsert": {
+        "Simple": {
+            "ItemName": "om namo venkateswara",
+            "Rate": 0,
+            "Qty": 0,
+            "Amount": 0
+        }
+    }
+}
