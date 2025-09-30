@@ -18,3 +18,7 @@
 ### 1.0.8
 
 - public bill started
+
+### 1.0.9
+
+- public V6 added

@@ -2,7 +2,7 @@ POST http://localhost:9008/V5/BillsTable/Insert/AsIsAndTS
 Content-Type: application/json
 
 {
-  "BuyerName": "",
+  "BuyerName": "16",
   "BuyerAddress": "",
   "BuyerGST": "",
   "InvoiceNo": "",
