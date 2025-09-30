@@ -45,6 +45,7 @@
             "field": "InvoiceDate",
             "title": "InvoiceDate",
             "isDate": true,
+            "type": "date",
             "WidthOptions": {
                 "inPx": 200
             },
@@ -53,7 +54,8 @@
         {
             "field": "InvoiceStateCode",
             "title": "InvoiceStateCode",
-            "type": "text",
+            "defaultvalue": "37",
+            "isInput": true,
             "WidthOptions": {
                 "inPx": 200
             }

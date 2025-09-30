@@ -14,3 +14,7 @@
 ### 1.0.7
 
 - schema changed 
+
+### 1.0.8
+
+- public bill started
